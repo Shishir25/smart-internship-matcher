@@ -1,0 +1,4 @@
+﻿import React from 'react';
+export function Skeleton({ className = 'h-4 w-full' }) {
+  return <div className={`animate-pulse bg-slate-200/80 rounded-lg ${className}`} aria-hidden="true" />;
+}
